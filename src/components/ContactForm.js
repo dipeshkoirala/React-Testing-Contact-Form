@@ -12,6 +12,7 @@ const ContactForm = () => {
 
   return (
     <div className="App">
+      <h1> User Contact Form</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label htmlFor="firstName">First Name*</label>
