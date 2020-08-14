@@ -29,6 +29,7 @@ const ContactForm = () => {
         <div>
           <label htmlFor="lastName">Last Name*</label>
           <input
+            data-testid="lastName"
             name="lastName"
             placeholder="Burke"
             ref={register({ required: true })}
